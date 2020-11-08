@@ -1,0 +1,8 @@
+gcc -Wall -o (name of output) (name of file.c)
+-Wall = show all warnings
+
+How to compile multiple files
+gcc -Wall nameOfFile.c nameOfFile.c nameOfFile.h
+
+gcc -E -o hello.i hello.c
+-E = tell computer to use the intermediate code (library)

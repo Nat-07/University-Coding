@@ -1,0 +1,33 @@
+sq x = x * x
+sq 5
+
+return 25
+
+-- =================================================
+
+-- square function
+
+sq (-5)
+return 25
+
+-- =================================================
+
+-- function to find distance between 2 points
+
+dist (x1, y1) (x2, y2) = sqrt(sq(x2-x1)+sq(y2-y1))
+
+dist (0,0) (4,3)
+
+return: 5
+
+-- =================================================
+
+vowel :: Char -> Bool
+vowel 'a' = True
+vowel 'e' = True
+vowel 'i' = True
+vowel 'o' = True
+vowel 'u' = True
+vowel '-' = False
+
+
