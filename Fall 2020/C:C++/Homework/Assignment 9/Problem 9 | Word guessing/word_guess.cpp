@@ -16,8 +16,6 @@ int main(){
     int randomNum;
     string userGuess;
     int guessCount;
-    // for not counting try if first time
-    bool first = true;
     
     /*
         temp word so we can change word's vowels to _ without messing with
@@ -62,25 +60,22 @@ int main(){
 
         // game portion
         do{
-            // don't add to count if first time guessing
-            if (first){
-                first = false;
-            }else{
-                guessCount++;
-            }
             
             // take user guess and check if quit
             cin >> userGuess;
-
+            
             if(userGuess == "quit"){
                 exit(0);
             }
+
+            // add to count
+            guessCount++;
             
             // while the user has not guessed correctly
         }while(userGuess != words[randomNum]);
 
         // tell the user how many guesses it took them
-        cout << "It took you " << guessCount << " guesses." << endl;
+        cout << "It took you " << guessCount << " guess(es)." << endl;
 
         /* 
             ask if want to play again, get their input and if No or quit 
