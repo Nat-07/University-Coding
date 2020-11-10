@@ -13,9 +13,8 @@ void subtract_max(int arr[], int n){
     // init vars
     bool first = true;
     int max;
-    int sum = 0;
 
-    for (int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){
         // if first time through for loop
         if(first){
             max = arr[i];
@@ -25,16 +24,17 @@ void subtract_max(int arr[], int n){
         if(arr[i] > max){
             max = arr[i];
         }
-        // add to sum
-        sum += arr[i];
     }
-    // print on the screen the sum minus the max element
-    cout << "All elements minus greatest value = " << sum-max << endl;
+
+    // going through array and current_item = max - current_item 
+    for (int j = 0; j < n; j++){
+        arr[j] = max - arr[j];
+    } 
 }
 
 // deallocate the memory from the pointer
 void deallocate(int a[]){
-    delete a;
+    delete[] a;
 }
 
 int main(){
@@ -56,6 +56,16 @@ int main(){
     
     // call functions
     subtract_max(a,n);
+
+    // new line for readability + info
+    cout << "\n\nAfter All values were subtracted by max:" << endl;
+
+    // print all items in changed array
+    for (int j = 0; j < n; j++){
+        cout << a[j] << endl;
+    }
+
+    // run deallocation function
     deallocate(a);
    
    return 0;
