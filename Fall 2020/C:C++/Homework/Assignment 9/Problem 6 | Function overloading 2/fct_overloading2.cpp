@@ -47,6 +47,7 @@ char myfirst(char arr[]){
     int i;
     // cycle through array and check if given element is not equal to vowels
     for (i = 0; i < 5; i++){
+        // not sure if y is being included. If so then add && arr != 'y'
         if (arr[i] != 'a' && arr[i] != 'e' && arr[i] != 'i' && arr[i] 
         != 'o' && arr[i] != 'u'){
             // return first instance
