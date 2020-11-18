@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Critter.h"
-
 using namespace std;
 
 /*
