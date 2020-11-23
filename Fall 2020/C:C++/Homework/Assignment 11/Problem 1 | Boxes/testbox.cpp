@@ -29,7 +29,7 @@ int main(int argc, char** argv){
         ptr[i].setWidth(mainWidth);
 
         cin >> mainHeight;
-        ptr[i].setHeight(mainWidth);
+        ptr[i].setHeight(mainHeight);
 
         cin >> mainDepth;
         ptr[i].setDepth(mainDepth);
