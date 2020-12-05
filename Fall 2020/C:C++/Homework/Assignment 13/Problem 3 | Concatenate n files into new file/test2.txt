@@ -1,0 +1,4 @@
+testing
+multi    lines
+^*2
+John
