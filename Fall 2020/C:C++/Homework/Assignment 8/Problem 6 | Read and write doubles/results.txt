@@ -1,4 +1,0 @@
-Sum = 3.111107
-Difference = -0.864193
-Product = 2.233039
-Division = 0.565219

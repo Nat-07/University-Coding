@@ -1,7 +1,0 @@
-
-f x = x + 5
-
-map f [1..10]
-Applying the function to all numbers from 1-10
-
--------------
