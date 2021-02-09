@@ -15,7 +15,6 @@
 
 #ignore .txt files
 *.txt
-!*/Fall 2020/ICS
 
 # Ignore vscode folder
 *.vscode
