@@ -14,7 +14,7 @@
 *.DS_Store
 
 #ignore .txt files
-C:C++/*.txt
+C/C++/*.txt
 
 # Ignore vscode folder
 *.vscode
