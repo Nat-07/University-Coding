@@ -7,11 +7,7 @@ rotate 0 xs = xs
 -- get string of chars depending on their position and the user input to change their position
 rotate a xs = rotate (a-1) (last xs : init xs)
 
-
-
 -------------------------------------------------
-
-
 
 --returns lists of rotates
 
