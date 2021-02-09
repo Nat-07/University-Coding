@@ -5,11 +5,11 @@ This repo contains code for the courses...
 * ADS
 
 ### Downloads
-[C](Use:http://mingw-w64.org/doku.php/download/mingw-builds)
+[C](http://mingw-w64.org/doku.php/download/mingw-builds)
 
-[C++](Use:http://mingw-w64.org/doku.php/download/mingw-builds)
+[C++](http://mingw-w64.org/doku.php/download/mingw-builds)
 
-[Haskell](Use:https://www.haskell.org/ghc/)
+[Haskell](https://www.haskell.org/ghc/)
 
 
 ### Compilation
