@@ -24,5 +24,11 @@
 *.out
 *.app
 
+# object
+*.o
+
+#interface file
+*.hi
+
 # Getting rid of .h.gch files
 *.h.gch*
