@@ -5,7 +5,6 @@ cnt x (y:ys)
     | otherwise = cnt x ys
 
 
-
 con :: [a] -> [a] -> [a]
 con [] ys = ys
 con (x:xs) ys = x : (con xs ys)
