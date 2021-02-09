@@ -241,5 +241,3 @@ dataType Node<dataType> :: popLast(Node* head){
 
     }
 }
-
-
