@@ -9,13 +9,12 @@
 
 ##### Above from: https://stackoverflow.com/a/25592735
 
-
-
 #ignore .DS_Store files
 *.DS_Store
 
 #ignore .txt files
 *.txt
+# unignore data.txt
 !/First year/Spring 2020/ADS/Homework 2/Problem 6 | Using maps/data.txt
 
 # Ignore vscode folder
