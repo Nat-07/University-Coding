@@ -4,7 +4,7 @@ This repo contains code for the courses...
 * ICS
 * ADS
 
-### Beginner manual
+### Beginner Manual
 
 1. Download & install the respective compiler(s)
     ##### Note: For Mac, C and C++ come pre-installed
@@ -53,4 +53,4 @@ Makefile using C++11 (example in repo) | https://stackoverflow.com/a/13828283
 Permission is henceforth granted for anyone if human, plant, or living being who lives under the sun to make use of the respective files if and only if they are used solely in a learning capacity. Thus, redistribution and or using as one's own is not condoned by myself or anyone who aided in the creation of the files.
 
 ---
-[NAT](Use:https://github.com/Nat-07)
+[NAT](https://github.com/Nat-07)
