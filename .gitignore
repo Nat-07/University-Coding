@@ -33,3 +33,9 @@
 
 # Getting rid of .h.gch files
 *.h.gch*
+
+# Environments
+env/
+
+#allow Makefiles
+!*Makefile
