@@ -4,7 +4,6 @@
 using namespace std;
 #include <string>
 
-
 /*
     CH-231-A
     aA2 p1.[cpp]
